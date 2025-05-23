@@ -9,7 +9,10 @@
   <header>
     <h1>Welcome to My Website</h1>
     <nav>
-      <a href="index.html">Home</a> |
+      <a href="index.html">Home</a> <main>
+  <h1>Welcome to My Website</h1>
+  <p>Hi, I’m Madhura — feel free to browse around and contact me!</p>
+</main> |
       <a href="projects.html">Projects</a> |
       <a href="contact.html">Contact Me</a>
     </nav>
