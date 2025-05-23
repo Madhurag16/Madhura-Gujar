@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | My Website</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact Me</a>
+    </nav>
+  </header>
+  <main>
+    <p>Hello! I'm glad you're here. This is my personal website where I share my projects and provide ways to connect.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | My Website</title>
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact Me</a>
+    </nav>
+  </header>
+  <main>
+    <ul>
+      <li><strong>Project 1:</strong> Description of your first project.</li>
+      <li><strong>Project 2:</strong> Description of your second project.</li>
+      <li><strong>Project 3:</strong> Description of your third project.</li>
+    </ul>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me | My Website</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact Me</a>
+    </nav>
+  </header>
+  <main>
+    <p>You can reach me directly at: <a href="mailto:madhuragujar16@gmail.com">madhuragujar16@gmail.com</a></p>
+    <p>Connect with me on LinkedIn: <a href="https://linkedin.com/in/madhura-gujar" target="_blank">linkedin.com/in/madhura-gujar</a></p>
+
+    <h2>Or send a message here:</h2>
+    <form action="mailto:madhuragujar16@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name"><br /><br />
+      
+      <label for="email">Your Email:</label><br />
+      <input type="email" id="email" name="email"><br /><br />
+      
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message"></textarea><br /><br />
+      
+      <input type="submit" value="Send">
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
