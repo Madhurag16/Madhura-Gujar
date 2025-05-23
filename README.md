@@ -7,6 +7,10 @@
 </head>
 <body>
   <header>
+    <h1>Madhura Arvind Gujar</h1>
+    <p>The University of Toledo</p>
+    <p>BBA in Information Systems and Human Resources</p>
+    <p>Curious, coachable, and confident</p>
     <nav>
       <a href="index.html">Home</a> |
       <a href="projects.html">Projects</a> |
@@ -35,4 +39,5 @@
   </footer>
 </body>
 </html>
+
 
