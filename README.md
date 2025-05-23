@@ -22,21 +22,4 @@
     <h2>Contact Me</h2>
     <p>Email me at: <a href="mailto:madhuragujar16@gmail.com">madhuragujar16@gmail.com</a></p>
 
-    <form action="mailto:madhuragujar16@gmail.com" method="post" enctype="text/plain">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name"><br /><br />
-
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email"><br /><br />
-
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message"></textarea><br /><br />
-
-      <input type="submit" value="Send">
-    </form>
-  </main>
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
-</body>
-</html>
+   
