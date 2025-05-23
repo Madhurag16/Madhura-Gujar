@@ -2,26 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home | My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website - Home</title>
+  <style>
+    /* Basic styling for a clean and minimal look */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;  /* Add some padding so content isn't at the very edge */
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      background-color: #f0f0f0; /* Light gray background for header */
+      padding: 10px;
+      margin-bottom: 20px;       /* Space below header */
+    }
+    nav ul {
+      list-style: none;         /* Remove bullet points from list */
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      display: inline;          /* Display list items in one line */
+      margin-right: 15px;       /* Spacing between menu items */
+    }
+    nav a {
+      text-decoration: none;    /* Remove underline from links */
+      color: #333333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Style the welcome message */
+    h1 {
+      font-size: 1.5em;         /* Increase font size for the main heading */
+      margin-top: 0;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.5;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <!-- Navigation menu in the header -->
     <nav>
-      <a href="index.html">Home</a> <main>
-  <h1>Welcome to My Website</h1>
- <Hi, I’m Madhura — feel free to browse around and contact me!>
-</main> |
-      <a href="projects.html">Projects</a> |
-      <a href="contact.html">Contact Me</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
     </nav>
   </header>
+
   <main>
-    <p>Hi! I’m Madhura. This is my personal website showcasing my work and how to reach me.</p>
+    <!-- Welcome message section -->
+    <h1>Hi, welcome to my website.</h1>
+    <p>I am a 22 year old navigating life via data! Other than data I like to paint, read and be outdoors. Thank you for connecting with me.</p>
   </main>
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
 </body>
 </html>
+
